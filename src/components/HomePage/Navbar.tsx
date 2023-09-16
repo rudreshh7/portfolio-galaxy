@@ -18,7 +18,9 @@ function Navbar() {
 
       <ul className={`menu ${isMobileMenuOpen ? "mobile-open" : ""}`}>
         <li>PROJECTS</li>
-        <li>SOCIALS</li>
+        <li>
+          <a href="https://bento.me/rudreshjha">SOCIALS</a>
+        </li>
         <li>CONTACT</li>
       </ul>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>

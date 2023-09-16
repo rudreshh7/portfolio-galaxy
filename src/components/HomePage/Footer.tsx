@@ -11,19 +11,28 @@ function Footer() {
         <div className="footer-socials">
           <div className="footer-names">
             <span>PROJECTS</span>
-            <span>BLOGS</span>
+            <span>
+              <a href="https://rudresh.hashnode.dev/" target="_blank">
+                BLOGS
+              </a>
+            </span>
             <span>ABOUT</span>
           </div>
           <div className="footer-icons">
             <span>
-              <img src="/images/twitter.svg" alt="" />
-              <a href="https://twitter.com/rudreshh7"></a>
+              <a href="https://twitter.com/TheRudresh" target="_blank">
+                <img src="/images/twitter.svg" alt="" />
+              </a>
             </span>
             <span>
-              <img src="/images/github.svg" alt="" />
+              <a href="https://github.com/rudreshh7" target="_blank">
+                <img src="/images/github.svg" alt="" />
+              </a>
             </span>
             <span>
-              <img src="/images/linkedin.svg" alt="" />
+              <a href="https://www.linkedin.com/in/rudreshh7/" target="_blank">
+                <img src="/images/linkedin.svg" alt="" />
+              </a>
             </span>
           </div>
         </div>
