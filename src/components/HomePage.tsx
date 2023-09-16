@@ -9,14 +9,14 @@ import Footer from "./HomePage/Footer";
 
 function HomePage() {
   return (
-    <div>
+    <>
       <Navbar />
       <HeroSection />
       <Project />
       <Experience />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

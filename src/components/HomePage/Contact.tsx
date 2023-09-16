@@ -12,13 +12,9 @@ function Contact() {
           I am always looking to Make new connections , so drop me an email or
           shoot me a DM on twitter. Who knows where the conversation could lead?
         </p>
-<<<<<<< HEAD
-        <span>Let&apos;s explore the possibilities and see where it takes us!</span>
-=======
         <span>
           Let&apos;s explore the possibilities and see where it takes us!
         </span>
->>>>>>> 792e775 (Update link of twitter)
       </div>
       <div className="contact-button">
         <button>Contact Me</button>
