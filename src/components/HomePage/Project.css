@@ -95,38 +95,35 @@ font-size: x-small;
         
         
     }
-    .project-list{
+    
+    .project-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 0rem;
-
     }
-
-    .project-1{
+    
+    .project-1 {
         /* Flex Basis or image ki max width ne jadu kara h , */
-        flex-basis: calc(50%-2rem);
+        flex-basis: calc(50% - 2rem); /* Add spaces and specify width as a percentage */
         margin: 1rem; /* Add some margin between items */
         text-align: center; /* Center text */
-
-
     }
-
-    .project-list img{
+    
+    .project-list img {
         width: 100%;
         height: auto;
         max-width: 10rem;
     }
-
-    .project-text h5{
+    
+    .project-text h5 {
         font-size: 1rem;
-    
     }
     
-    .project-text span{
-        font-size:xx-small;
-    
+    .project-text span {
+        font-size: xx-small;
     }
+    
 
  
 }
