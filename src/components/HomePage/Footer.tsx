@@ -10,7 +10,9 @@ function Footer() {
         <div className="copyright">&copy; 2023 Rudresh Jha</div>
         <div className="footer-socials">
           <div className="footer-names">
-            <span>PROJECTS</span>
+            <span>
+              <a href="https://rudresh.vercel.app/projects">PROJECTS</a>
+            </span>
             <span>
               <a href="https://rudresh.hashnode.dev/" target="_blank">
                 BLOGS

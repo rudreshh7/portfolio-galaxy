@@ -17,7 +17,9 @@ function Navbar() {
       </div>
 
       <ul className={`menu ${isMobileMenuOpen ? "mobile-open" : ""}`}>
-        <li>PROJECTS</li>
+        <li>
+          <a href="https://rudresh.vercel.app/projects">PROJECTS</a>
+        </li>
         <li>
           <a href="https://bento.me/rudreshjha">SOCIALS</a>
         </li>

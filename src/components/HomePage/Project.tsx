@@ -46,7 +46,9 @@ function Project() {
       </div>
       {/* Project List Closed Props up in future */}
       <div className="morebutton">
-        <button>See Other Projects</button>
+        <a href="https://rudresh.vercel.app/projects">
+          <button>See Other Projects</button>
+        </a>
       </div>
     </div>
   );
