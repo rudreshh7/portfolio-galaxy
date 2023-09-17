@@ -1,0 +1,29 @@
+body{
+    color: white;
+}
+
+
+.project-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-block: 4rem;
+    
+
+}
+
+.project-header h1{
+    font-size: 3rem;
+}
+
+/* Media Queries for Mobile */
+
+@media(max-width:756px){
+    .project-header h1{
+        font-size: 2rem;
+    }
+    .project-header p{
+        font-size:0.7rem
+    }
+}
